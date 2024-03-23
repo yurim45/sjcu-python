@@ -15,7 +15,7 @@ print(data)
 print(result)
 
 ####################
-# Call by Reference
+# Call by Reference 참조에 의한 호출
 def processing(data):
     data[0] = 100
 

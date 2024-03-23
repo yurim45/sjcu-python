@@ -27,7 +27,7 @@ else:
     print("Too Small")
     
 # 비교 / 논리 연산자
-x, y = 10, 20
+x, y = 10, 20 # 두 개의 변수를 한 번에 초기화
 if 0 < x and y < 30:
     print("Good")
 else:

@@ -33,7 +33,7 @@ print(add(1))
 # 매개변수의 개수가 가변적인 함수
 def sum(*values):
     result = 0
-    for one in values:
+    for one in values: # one은 values의 각 원소를 가리킴
         result = result + one
     return result
 
