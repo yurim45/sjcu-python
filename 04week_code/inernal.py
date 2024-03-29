@@ -17,6 +17,7 @@ print(dir({'chris' : 1, 'tommy' : 2}))
 print(divmod(5, 2))
 
 # 인덱스를 포함하는 enumerate 객체를 반환
+# enumerate: 열거 가능한
 for index, name in enumerate(['chris', 'tommy', 'harry']):
     print(index, name)
 
