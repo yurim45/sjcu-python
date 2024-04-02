@@ -1,9 +1,9 @@
 # 존재하지 않는 파일을 읽기모드로 여는 경우 : FileNotFoundError 후 종료
-#myFile = open('NotExist.txt', 'r')
+# myFile = open('NotExist.txt', 'r')
 
 # 잘못된 접근 : IndexError 후 종료
-#myList = [1, 2, 3]
-#print(myList[3])
+# myList = [1, 2, 3]
+# print(myList[3])
 
 # 예외처리 : try ~ except
 try:
@@ -47,6 +47,7 @@ finally:
     myFile_1.close()
     print('항상 실행됩니다.')
     
+    
 # 예외처리 : try ~ except ~ else
 try:
     myFile_2 = open('example.txt', 'r')
@@ -57,6 +58,7 @@ except FileNotFoundError as e:
 else:
     print(data)
     myFile_2.close()
+    
     
 # 예외처리 : try ~ except ~ else ~ finally
 try:
@@ -73,6 +75,7 @@ else:
 finally:
     print('항상 실행됩니다.')
     
+    
 # 예외 처리 vs. 조건문
 data = input('숫자를 입력하세요 : ')
 try:
@@ -88,6 +91,7 @@ if data.isdigit():
     print(result)
 else:
     print('숫자를 입력하세요.')
+    
     
 # assert 조건식, '에러메시지'
 data = input('7을 입력하세요 : ')
