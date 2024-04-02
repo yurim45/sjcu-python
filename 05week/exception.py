@@ -97,5 +97,5 @@ else:
 data = input('7을 입력하세요 : ')
 try:
     assert data == '7', '7을 입력하세요.'
-except AssertionError as e:
+except AssertionError as e: # 특히 개발할 때 많이 사용. 사용자가 입력한 값이 맞는지 확인할 때 사용
     print(e)
