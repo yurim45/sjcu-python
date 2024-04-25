@@ -50,3 +50,11 @@ print(result)
 x, y = calc(1,3)
 print(x)
 print(y)
+
+
+
+print('=============')
+print('''3 books''')
+# print(''{%d} books''.format(3))
+print('%s books' % '3')
+print('%d books' % 3)
